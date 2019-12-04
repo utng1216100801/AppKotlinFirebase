@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AppKotlinFireBase</string>
+
+    <string-array name="carreras">
+        <item>Ingenieria de Software</item>
+        <item>Telecomunicaciones</item>
+        <item>Software Multiplataforma</item>
+    </string-array>
+
+    <string-array name="materias">
+        <item>Introducción a IoT</item>
+        <item>Desarrollo Web</item>
+        <item>Desarrollo de Apps</item>
+    </string-array>
+
+    <string name="tema">Ingresar tema del dia </string>
+
+    <string name="registro">Registar tema</string>
+</resources>

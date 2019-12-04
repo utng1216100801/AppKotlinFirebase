@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spiCarreras"
+        android:entries="@array/carreras"
+        android:layout_width="match_parent"
+        android:layout_height="15pt"
+        />
+
+    <Spinner
+        android:id="@+id/spiMaterias"
+        android:entries="@array/materias"
+        android:layout_width="match_parent"
+        android:layout_height="15pt"/>
+
+    <EditText
+        android:id="@+id/etxTema"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:hint="@string/tema"
+        android:textSize="10pt" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="@string/registro" />
+
+</LinearLayout>
